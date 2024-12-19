@@ -1,7 +1,7 @@
 import express from "express";
 import { config } from "dotenv";
 import cors from "cors";
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 import { sendEmail } from "./utils/sendEmail.js";
 
 const app = express();
